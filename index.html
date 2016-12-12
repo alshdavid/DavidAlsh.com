@@ -1,10 +1,10 @@
 <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
 
-<body>  
+<body onscroll="console.log('test')">  
     <header>
-        <div class="logo">
+        <!--<div class="logo">
             <span class="letter">D.</span><span class="last">Alsh</span>
-        </div>
+        </div>-->
     </header>
     <section class="top-block">
     <div class="heading">
@@ -52,9 +52,9 @@
         <article>
             <div class="image" style="background-image: url('./images/primarytraining.com.au.jpg')"></div>
         </article>
-        <article>
+        <!--<article>
             <div class="image" style="background-image: url('')"></div>
-        </article>
+        </article>-->
         
     </section>
 </body>
@@ -99,7 +99,7 @@
     h1 {
         font-size: 34px;
         font-weight: 900;
-        text-shadow: 1px 1px 10px rgba(150, 150, 150, 0.3);
+        text-shadow: 1px 1px 10px rgba(150, 150, 150, 0.02);
     }
 
     .heading {
@@ -134,13 +134,11 @@
         position: absolute;
         bottom: 0; left: 0; right: 0;
         height: 1px;
-        background-color: #979797;
     }
 
 
     .projects {
         position: relative;
-        background: black;
     }
 
     .projects:after {
@@ -158,16 +156,9 @@
         height: 400px;
         opacity: 1;
         transition: opacity .25s;
-        background-color: #fafafa;
     }
 
-    .projects article:nth-child(odd) {
-        background-color: #eee;
-    }
 
-    .projects article:hover {
-        opacity: 0.9;
-    }
 
     .projects article .image {
         position: absolute;
