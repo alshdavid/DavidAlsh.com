@@ -4,6 +4,7 @@
     z-index: 100;
     transition: visibility .5s;
     visibility: hidden;
+    pointer-events: none;
 
     .top-nav {
        height: 60px;
@@ -53,9 +54,13 @@
 
 #off-canvas.open {
     visibility: visible;
+    pointer-events: initial;
     
     .underlay {
-        background-color: rgba(0,0,0,0.3);
+        background-color: rgba(0,0,0,0.8);
+        @include mappy-bp($page-width){
+            background-color: rgba(0,0,0,0.3);
+        }
     }
 
     .content { 
