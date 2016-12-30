@@ -136,6 +136,8 @@ h1 {
 
     @include mappy-bp($page-width){
         font-size: 16px;
+        padding: 5px 2px;
+        margin: 15px 8px;
     }
 
     &:hover {
@@ -179,13 +181,16 @@ h1 {
 
     article {
         position: relative;
-        height: 400px;
+        height: 250px;
         opacity: 1;
         transition: opacity .25s;
+        margin-bottom: 30px;
 
         @include mappy-bp(500px){
             float: left; 
             width: 50%; 
+            height: 400px;
+            margin-bottom: 0px;
         }
 
         @include mappy-bp($page-width){
@@ -212,7 +217,7 @@ h1 {
         background-position: center;
         transition: .25s transform;
     }
-    
+
     @include mappy-bp($page-width){
         .image:hover {
             transform: translateY(-3%);
