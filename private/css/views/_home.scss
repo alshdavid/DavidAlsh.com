@@ -50,7 +50,11 @@ header {
 }
 
 #typed {
-    font-size: 34px;
+    font-size: 18px;
+
+    @include mappy-bp($page-width){
+        font-size: 34px;
+    }
 
     a {
         cursor:pointer;
@@ -70,23 +74,35 @@ header {
 }
 
 .typed-cursor {
-    font-size: 34px;
+    font-size: 18px;
+
+    @include mappy-bp($page-width){
+        font-size: 34px;
+    }
 }
 
 h1 {
-    font-size: 34px;
+    font-size: 18px;
     font-weight: 900;
     text-shadow: 1px 1px 10px rgba(150, 150, 150, 0.02);
+    
+    @include mappy-bp($page-width){
+        font-size: 34px;
+    }
 }
 
 .heading {
-    height: calc(100vh - 200px);
-    //line-height: 650px;
+    height: calc(100vh - 100px);
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0 10vw;
     
+    @include mappy-bp($page-width){
+        padding: 0;
+        height: calc(100vh - 200px);
+    }
 }
 
 #top-block {
@@ -97,11 +113,17 @@ h1 {
     position: absolute;
     bottom: 0; left: 10%; right: 10%;
     text-align: center;
-    display: flex;
-    justify-content: space-around;
+    @include mappy-bp($page-width){
+        display: flex;
+        justify-content: space-around;
+    }
 }
 
 .selector a {
+    @include mappy-bp(max-width 321px){
+        font-size: 13px;
+    }
+
     display: inline-block;
     color: black;
     padding: 5px 2px;
@@ -110,6 +132,11 @@ h1 {
     position: relative;
     text-transform: uppercase;
     text-decoration: none;
+    font-size: 14px;
+
+    @include mappy-bp($page-width){
+        font-size: 16px;
+    }
 
     &:hover {
         &:hover {
@@ -141,17 +168,30 @@ h1 {
     }
 
     .slide {
-        min-height: calc(100vh - 60px);
+        min-height: calc(100vh - 120px);
+        padding: 0 6vw;
+        @include mappy-bp(500px){
+            min-height: calc(100vh - 60px);
+            padding: 0;
+        }
     }
 
 
     article {
         position: relative;
-        float: left; 
-        width: calc(100% / 3);
         height: 400px;
         opacity: 1;
         transition: opacity .25s;
+
+        @include mappy-bp(500px){
+            float: left; 
+            width: 50%; 
+        }
+
+        @include mappy-bp($page-width){
+            float: left; 
+            width: calc(100% / 3); 
+        }
     }
 
 

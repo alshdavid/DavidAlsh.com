@@ -6,5 +6,51 @@
         
         -ms-overflow-style: none;
         overflow: -moz-scrollbars-none;
+
+        @include mappy-bp(max-width $page-width){
+            display: none;
+        }
+    }
+
+    .resume-content {
+        @include mappy-bp($page-width){
+            display: none;
+        }
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: calc(100vh - 120px);
+        text-align: center;
+
+        h3, h4 {
+            font-weight: 400;
+            font-size: 25px;
+            margin-bottom: 0;
+        }
+
+        h4 {
+            font-size: 20px;
+        }    
+
+        a {
+            -webkit-tap-highlight-color: black;
+            user-select: initial; 
+            display: block;
+            cursor: text;
+            color: #333;
+            text-decoration: none;
+            transition: color .25s;
+            font-size: 25px;
+
+            &:hover {
+                color: lighten(#333, 30%);
+            }
+
+            &:active {
+                color: lighten(#333, 60%);
+                transition: color 0s;
+            }
+        }
     }
 }
