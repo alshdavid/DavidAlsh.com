@@ -143,17 +143,17 @@
                         <br><br>
                         For me, it all started when I was 12. My father had bought me my first (and last) console, a PSP. Unfortunately, I had no games with it, and the sound of the menu items clicking only remained entertaining for so long. 
                         <br><br>
-                        The console reminded me of a Game Boy Advanced, so I assumed it would "just" have Poke'mon. When I discovered it didn't, I realised that I had to find out how. <strong>BAM.</strong> Enter the world of source code, compilers and homebrew games.  
+                        The console reminded me of a Game Boy Advanced, so I assumed it would "just" have Poke'mon. When I discovered it didn't, I realised that I had to find out how to get it working. <strong>BAM.</strong> Enter the world of source code, compilers and homebrew games.  
                         <br /><br />
-                        I used to sit around at night with a pad and a pen, working out game mechanics. I had no idea how to make them, but that didn't stop me from trying to work it out. I thought about what would work, broke down genres and fantasized about the games I would make for myself.
+                        That eventually led on to many late nights, sitting around at night with a pad and a pen, working out game mechanics for fictitious games. I had no idea how to make them, but that didn't stop me from trying to work it out. I thought about what would work, broke down genres and fantasized about the games I would make for myself.
                         <br><br>
                         Eventually, I started making projects like IDEs for PSP homebrew development in C# (essentially a transpiler for LUA that ran off a homebrew LUA interpreter). 
                         <br><br>
-                        I wanted to be a hacker one day, so I picked up a copy of Red Hat Linux from Dick Smith. I'd installed Windows, 98 before, how hard could Linu- oh shi.. what is swap?
+                        I wanted to be a hacker one day, so I picked up a copy of Red Hat Linux from Dick Smith. I'd installed Windows 98 before, how hard could Linu- oh shi.. what is ext2?
                         <br><br>
                         <strong>Skip to today</strong> and I have become a man of shenanigans.
                         <br><br>
-                        Leading start-ups. Traveling. Coffee. Engineering. Coffee. Random Hobbies. It kills me to not be doing something ridiculous.
+                        Leading start-ups. Traveling. Coffee. Engineering. Random Hobbies. Coffee. It kills me to not be doing something ridiculous.
                         <br><br>
                         I am currently employed with Brown Paper Bag in Auckland - an incredible company with some of the most talented people I have met. I am humbled to have been made a part of their team, and have enjoyed every minute of it 
                         <br /><br />
@@ -161,10 +161,26 @@
                         <br><br>
                         In the future I look forward to more travel, more shenanigans and more beer (and coffee).
                         <br><br><br>
+                        <strong>Okay hot shot, so what can you do?</strong>
+                        <br><br>
+                        I am passionate about web technologies. I my current favourite stack is Angular2 + Node/Express/Happi + MongoDB.
+                        <br><br>
+                        I have some skills in UX/UI design and can make HTML do whatever I want it to.
+                        <br><br>
+                        In the past I have worked with Java, C#, Python. I had a background in object orientation before I moved into the crazy world of JavaScript, with it's observables, promises and asyncronous code.
+                        <br><br>
+                        Initally, my introduction to JavaScript involved anger. <i>Why can I not just get a return value?.. ok non blocking fine ok.</i> Eventually the pain turned into a fondness for it's expressive nature.
+                        <br><br>
+                        I am currently enjoing implimenting more functional programming systems into my applications. 
+                        <br><br>
+                        I really love the flexibility in JavaScript, plus saying big words like "higher order function" scaring other developers makes me feel good about myself.
+                        <br><br><br>
+                        I really appriciate you getting this far into my bio - <a href="#contact">click here to contact me</a>
+                        <br><br>
                         Peace Out
                         <br>
                         David 
-
+                        <br><br><br>
 
                     </p>
                     <!--<h4>A project I put together a while ago:</h4>
@@ -234,6 +250,13 @@
                         scrollTop: $('.selector').offset().top
                     }, 500);
                 })     
+                $('#about').on('click', 'a[href*="#"]:not([href="#"])', function(e) {
+                    //e.preventDefault()
+                    changeSlide(this.hash)
+                    $('html, body').animate({
+                        scrollTop: $('.selector').offset().top
+                    }, 500);
+                })  
                 $('#typed').on('click', 'a[href*="#"]:not([href="#"])', function(e) {
                     //e.preventDefault()
                     changeSlide(this.hash)
