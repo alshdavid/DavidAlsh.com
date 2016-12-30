@@ -210,10 +210,12 @@ h1 {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        transition: .25s top;
+        transition: .25s transform;
     }
-
-    .image:hover {
-        top: 8%;
+    
+    @include mappy-bp($page-width){
+        .image:hover {
+            transform: translateY(-3%);
+        }
     }
 }
