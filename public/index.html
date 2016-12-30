@@ -307,6 +307,12 @@
         <script>
             //$('#resume-outet').load('./resume/index.html')
 
+            if ($( window ).width() > 1024){
+                $('.heading').height($( window ).height() - 200)
+            } else {
+                $('.heading').height($( window ).height() - 100)
+            }
+
             function main(){
                 if (location.hash) {
                     if (window.location.hash.split("--")[1]){
