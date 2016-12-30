@@ -1,0 +1,10 @@
+.slide-resume {
+    iframe {
+        width: 100%;
+        height: calc(100vh - 80px);
+        &::-webkit-scrollbar { width: 0 !important }
+        
+        -ms-overflow-style: none;
+        overflow: -moz-scrollbars-none;
+    }
+}

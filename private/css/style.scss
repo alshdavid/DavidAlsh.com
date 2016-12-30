@@ -15,6 +15,10 @@ $color-2: white;
 @import "typography";
 
 // View Imports
+@import "views/off-canvas";
 @import "views/home";
-@import "views/off-canvas"
+@import "views/about";
+@import "views/resume";
+@import "views/contact";
+
 

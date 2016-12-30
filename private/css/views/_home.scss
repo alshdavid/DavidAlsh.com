@@ -95,8 +95,10 @@ h1 {
 
 .selector {
     position: absolute;
-    bottom: 0; left: 0; right: 0;
+    bottom: 0; left: 10%; right: 10%;
     text-align: center;
+    display: flex;
+    justify-content: space-around;
 }
 
 .selector a {
@@ -139,7 +141,7 @@ h1 {
     }
 
     .slide {
-        min-height: 100vh;
+        min-height: calc(100vh - 60px);
     }
 
 

@@ -127,13 +127,43 @@
                 </article>
             </div>    
             <div class="slide" id="about">
-                This is a place where I talk about myself
+                <div class="slide-about">
+                    <p>
+                        <strong>My name is David, I am a technology enthusiast and have been playing with tech for as long as I can remember. </strong>
+                        <br /><br />
+                        A little while ago, a friend of mine started studying programming at university, which was the catalyst for my realisation that my skills and understanding of technology was valuable, so I sought to refine them. 
+                        <br /><br />
+                        Since then I have immersed myself in the world of programming, start ups, and coffee. Led teams, coordinated with team, broke things, googled things, traveled, met people and wouldn't trade my experience for the world/ 
+                        <br /><br />
+                        I love efficiency and simplicity. Single Page Web Applications are a something of an obsession of mine. 
+                        <br /><br />
+                        I find learning new systems and putting them into practice extremely rewarding. I'm the kind of person who would suggest amendments or alternative ways of approaching a problem. 
+                        <br /><br />
+                        Interests outside of programming involve travel, spending time with friends or family, working on motorbikes, fire-spinning, beer.  
+                        <br /><br />
+                    </p>
+                    <h4>A project I put together a while ago:</h4>
+                    <iframe class="video" src="https://www.youtube.com/embed/IO_xM_IdeAw" frameborder="0" allowfullscreen style="width: 100%;"></iframe>
+                </div>
             </div>  
             <div class="slide" id="resume">
-                This is a place where I put my resume
+                <div class="slide-resume">
+                    <div id="resume-outlet"></div>
+                    <iframe src="./resume/index.html" frameborder="0"></iframe>
+                </div>
             </div> 
             <div class="slide" id="contact">
-                This is a place where I put a contact place
+                <div class="slide-contact">
+                    <div class="contact-content">
+                        <h3>The best way to contact me is via my email</h3>
+                        <br>
+                        <a href="mailto:alshdavid@gmail.com">alshdavid@gmail.com</a>
+                        <br>
+                        <h4>or by phone</h4>
+                        <br>
+                        <a href="tel:+64284041700">028 404 1700</a>
+                    </div>
+                </div>
             </div>   
         </section>
  
@@ -246,6 +276,8 @@
         </script>
         
         <script>
+            //$('#resume-outet').load('./resume/index.html')
+
             if (location.hash) {
                 changeSlide(window.location.hash)
                 window.location.hash = "";
@@ -255,11 +287,10 @@
                 setTimeout(function() {
                     window.scrollTo(0, 0);
                     $('html, body').animate({
-                        scrollTop: $('.selector').offset().top
+                        //scrollTop: $('.selector').offset().top
                     }, 700);
                 }, 500);
             }
-
         </script>
     </section>
 </html>
