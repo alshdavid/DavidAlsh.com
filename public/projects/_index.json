@@ -1,0 +1,62 @@
+[
+    {
+        "name" : "github",
+        "picture" : "./images/github.com.jpg",
+        "category" : ["all"]
+    },
+    {
+        "name" : "brownpaperbag",
+        "picture" : "./images/brownpaperbag.co.nz.jpg",
+        "category" : ["all"]
+    },
+    {
+        "name" : "belton",
+        "picture" : "./images/belton.com.jpg",
+        "category" : ["all", "website"]
+    },
+    {
+        "name" : "ozkiwi",
+        "picture" : "./images/ozkiwi200.com.au.jpg",
+        "category" : ["all", "website"]
+    },
+    {
+        "name" : "manorbuild",
+        "picture" : "./images/manorbuild.co.nz.jpg",
+        "category" : ["all", "website"]
+    },
+    {
+        "name" : "ridesofalifetime",
+        "picture" : "./images/ridesofalifetime.co.nz.jpg",
+        "category" : ["all", "website"]
+    },
+    {
+        "name" : "freightbrokers",
+        "picture" : "./images/freightbrokers.co.nz.jpg",
+        "category" : ["all", "website"]
+    },
+    {
+        "name" : "fulvic",
+        "picture" : "./images/fulvic.co.nz.jpg",
+        "category" : ["all", "website"]
+    },
+    {
+        "name" : "biox",
+        "picture" : "./images/biox.co.nz.jpg",
+        "category" : ["all", "website"]
+    },
+    {
+        "name" : "bdq",
+        "picture" : "./images/bdq.co.nz.jpg",
+        "category" : ["all", "website"]
+    },
+    {
+        "name" : "whispr",
+        "picture" : "./images/whispr.online.jpg",
+        "category" : ["all", "app"]
+    },
+    {
+        "name" : "primaryeducation",
+        "picture" : "./images/primaryeducation.com.au.jpg",
+        "category" : ["all", "website"]
+    }
+]

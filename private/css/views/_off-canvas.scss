@@ -1,0 +1,43 @@
+#off-canvas {
+    position: fixed;
+    left: 0; top: 0; bottom:0; right: 0;
+    z-index: 100;
+    transition: visibility .5s;
+    visibility: hidden;
+
+    .underlay {
+        z-index: -1;
+        position: absolute;
+        left: 0; top: 0; bottom:0; right: 0;
+        background-color: rgba(0,0,0,0);
+        transition: background-color .5s;
+        cursor: pointer;
+    }
+
+    .content {
+        &::-webkit-scrollbar { width: 0 !important }
+        
+        -ms-overflow-style: none;
+        overflow: -moz-scrollbars-none;
+        overflow-y: scroll;
+        transition: transform .5s;
+        left: 0; top: 0; bottom:0;
+        width: 80vw;
+        transform: translateX(-100%);
+        position: absolute;
+        background-color: white; 
+        box-shadow: 0px 10px 47px -6px rgba(0,0,0,0.6);
+    }
+}
+
+#off-canvas.open {
+    visibility: visible;
+    
+    .underlay {
+        background-color: rgba(0,0,0,0.3);
+    }
+
+    .content { 
+        transform: translateX(0%);
+    }
+}

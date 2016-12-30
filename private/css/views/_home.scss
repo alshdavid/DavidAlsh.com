@@ -107,6 +107,18 @@ h1 {
     cursor: pointer;
     position: relative;
     text-transform: uppercase;
+    text-decoration: none;
+
+    &:hover {
+        &:hover {
+            color: lighten(#000, 30%);
+        }
+
+        &:active {
+            color: lighten(#000, 60%);
+            transition: color 0s;
+        }
+    }
 }
 
 .selector a:first-child:after {
