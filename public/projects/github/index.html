@@ -1,1 +1,45 @@
-test
+<style>
+    .project img {
+        float: right;
+        max-width: 45%;
+        border: 2px solid #ccc;
+        border-radius: 1px;
+        box-shadow: 0px 10px 47px -6px rgba(0,0,0,0.6);
+    }
+
+    .project  ul {
+        padding-left: 40px;
+    }
+
+    @media screen and (max-width: 1024px){
+        .project img {
+            float: none;
+            max-width: 100%;
+            margin: 20px 0 60px;
+        }
+    }
+</style>
+<nav class="top-nav">
+    <!--<a class="link" href="https://github.com/alshdavid">github.com/alshdavid</a>-->
+    <a onclick="canvas('null', 'close')" href="#!" class="close">Close</a>
+</nav>
+<section class="project">
+    <img class="desktop" src="./projects/github/img/1.jpg" alt="HTML Templater">
+    <h3>My Github</h3>
+    <p>Of course, I make most of my projects available to the public.</p>
+    <br><br>
+    <img class="mobile" src="./projects/github/img/1.jpg" alt="HTML Templater">
+    <p>Feel free to check them out, make pull requests or submit issues.</p>
+    <p>For the most part, I use my GitHub to put up project starter templates.</p>
+    <br>
+    <p>Things like:</p>
+    <ul>
+        <li>Simple HTML template + task runner.</li>
+        <li>Node.js API started project.</li>
+        <li>Node.js project that uses TypeScript.</li>
+    </ul>
+    <br><br>
+    <p>Check it out:</p>
+    <a class="link" href="https://github.com/alshdavid">github.com/alshdavid</a>
+    
+</section>

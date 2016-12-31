@@ -9,7 +9,7 @@
     .top-nav {
        height: 60px;
 
-        .close {
+        .close, .link {
             position: absolute;
             top: 0; right: 6%;
             line-height: 60px;
@@ -18,10 +18,16 @@
             text-transform: uppercase;
             cursor: pointer;
         }
+
+        .link {
+            right: auto;
+            left: 6%;
+            text-transform: initial;
+        }
     }
 
     .content-outlet {
-        padding: 0 6%;
+        padding: 0 6% 80px;
     }
 
     .underlay {
