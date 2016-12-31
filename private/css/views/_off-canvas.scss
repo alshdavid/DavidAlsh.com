@@ -75,3 +75,31 @@
         transform: translateX(0%);
     }
 }
+
+.project .video-container {
+    max-width: 80vw;
+    margin: 0px 0 60px;
+    border: 2px solid #ccc;
+    border-radius: 1px;
+    box-shadow: 0px 10px 47px -6px rgba(0,0,0,0.6);
+}
+
+.project video {
+    display: block;
+    width:100%;
+    margin: 0px 0 60px;
+    border: 2px solid #ccc;
+    border-radius: 1px;
+    box-shadow: 0px 10px 47px -6px rgba(0,0,0,0.6);
+}
+
+.project  ul {
+    padding-left: 40px;
+}
+
+@media screen and (min-width: 1300px){
+    .project video {
+        width: 50vw;
+        margin: 0 auto 60px;
+    }
+}
