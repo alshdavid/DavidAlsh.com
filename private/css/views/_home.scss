@@ -130,8 +130,14 @@ h1 {
     bottom: 0; left: 10%; right: 10%;
     text-align: center;
     @include mappy-bp($page-width){
+        left: 50%;
+        max-width: 1650px;
+        width: 100%;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
+        padding: 0 3%;
+        transform: translateX(-50%);
+        box-sizing: border-box;
     }
 }
 
@@ -157,8 +163,10 @@ h1 {
     }
 
     &:hover {
-        &:hover {
-            color: lighten(#000, 30%);
+        @include mappy-bp($page-width){
+            &:hover {
+                color: lighten(#000, 30%);
+            }
         }
 
         &:active {
@@ -195,8 +203,14 @@ h1 {
     }
     
     .projects-container {
-        max-width: calc(1620px + 10%);
+        max-width: calc(1620px + 0%);
         margin: 0 auto;
+
+        &:after {
+            content: '';
+            display: block;
+            clear:both;
+        }
     }
 
     article {
