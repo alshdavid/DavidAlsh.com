@@ -193,7 +193,11 @@ h1 {
             padding: 0;
         }
     }
-
+    
+    .projects-container {
+        max-width: calc(1620px + 10%);
+        margin: 0 auto;
+    }
 
     article {
         position: relative;
@@ -232,6 +236,8 @@ h1 {
         background-repeat: no-repeat;
         background-position: center;
         transition: .25s transform;
+
+
     }
 
     @include mappy-bp($page-width){

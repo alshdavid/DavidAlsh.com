@@ -1,45 +1,43 @@
-<style>
-    .project img {
-        float: right;
-        max-width: 45%;
-        border: 2px solid #ccc;
-        border-radius: 1px;
-        box-shadow: 0px 10px 47px -6px rgba(0,0,0,0.6);
-    }
-
-    .project  ul {
-        padding-left: 40px;
-    }
-
-    @media screen and (max-width: 1024px){
-        .project img {
-            float: none;
-            max-width: 100%;
-            margin: 20px 0 60px;
-        }
-    }
-</style>
-<nav class="top-nav">
-    <!--<a class="link" href="https://github.com/alshdavid">github.com/alshdavid</a>-->
-    <a onclick="canvas('null', 'close')" href="#!" class="close">Close</a>
-</nav>
 <section class="project">
-    <img class="desktop" src="./projects/github/img/1.jpg" alt="HTML Templater">
-    <h3>My Github</h3>
-    <p>Of course, I make most of my projects available to the public.</p>
-    <br><br>
-    <img class="mobile" src="./projects/github/img/1.jpg" alt="HTML Templater">
-    <p>Feel free to check them out, make pull requests or submit issues.</p>
-    <p>For the most part, I use my GitHub to put up project starter templates.</p>
-    <br>
-    <p>Things like:</p>
-    <ul>
-        <li>Simple HTML template + task runner.</li>
-        <li>Node.js API started project.</li>
-        <li>Node.js project that uses TypeScript.</li>
-    </ul>
-    <br><br>
-    <p>Check it out:</p>
-    <a class="link" href="https://github.com/alshdavid">github.com/alshdavid</a>
-    
+    <nav class="top-nav">
+        <div class="left">
+            <h3>My Github</h3>
+            <p>My Personal Repo Collection</p>
+        </div>
+        <a onclick="canvas('null', 'close')" href="#!" class="close"><i></i><i></i></a>
+    </nav>
+    <img frameborder="0" src="./projects/github/img/index_fat.jpg"/>
+
+    <div class="title-module">
+        <a class="link" href="https://github.com/alshdavid">github.com/alshdavid</a>
+    </div>
+    <div class="project-content">
+        <article>
+            <h2>Description:</h2>
+            <br><br>
+            <p> 
+                I started using github to track my personal projects around June. Since then I have put up everything I’d like public there. I hold programming classes, hosting a few example projects that are intended as a tutorial for my students.
+            </p>
+            <br>
+            <p> 
+                Otherwise I keep my starter website template there, along with my node.js templates. One as a starter project with TypeScript + node and another being a starter project for Node + Happi.js and Socket.io.
+            </p>
+            <br>
+            <p>
+                I keep frequently update my projects so keep an eye out on the branches, I often make something badly first, revisiting it later in a branch when I learn a better way of handling similar challenges.
+            </p>
+            <br>
+            <p>Feel free to check them out, make pull requests or submit issues.</p>
+            <p>For the most part, I use my GitHub to put up project starter templates.</p>
+            <br><br>
+            <p>Things like:</p>
+            <br>
+            <ul>
+                <li>Simple HTML template + task runner.</li>
+                <li>Node.js API started project.</li>
+                <li>Node.js project that uses TypeScript.</li>
+            </ul>
+        </article>
+    </div>
+    <script> $(function() { projectInit() }) </script>
 </section>

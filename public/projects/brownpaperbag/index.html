@@ -1,54 +1,46 @@
-<style>
-    .project img {
-        float: right;
-        max-width: 45%;
-        margin: 0 0 0 40px;
-        border: 2px solid #ccc;
-        border-radius: 1px;
-        box-shadow: 0px 10px 47px -6px rgba(0,0,0,0.6);
-    }
-
-    .project  ul {
-        padding-left: 40px;
-    }
-
-    @media screen and (max-width: 1024px){
-        .project img {
-            float: none;
-            max-width: 100%;
-            margin: 20px 0 60px;
-        }
-    }
-</style>
-<nav class="top-nav">
-    <!--<a class="link" href="https://github.com/alshdavid">github.com/alshdavid</a>-->
-    <a onclick="canvas('null', 'close')" href="#!" class="close">Close</a>
-</nav>
 <section class="project">
-    <img class="desktop" src="./projects/brownpaperbag/img/1.jpg" alt="HTML Templater">
-    <h3>Brown Paper Bag</h3>
-    <p>An incredible web development company, an incredible team.</p>
-    <br><br>
-    <img class="mobile" src="./projects/brownpaperbag/img/1.jpg" alt="HTML Templater">
-    <p>I was hired by BrownPaperBag in 2016 as a front end developer.</p>
-    <br>
-    <p>During my time there, I worked in teams which put together websites and web applications for clients.</p>
-    <br>
-    <p>We formed a cohesive unit, where each member contributed their strengths where, between the throwing paper at each other and banter, we crafted high quality products.</p>
-    <br>
-    <p>In my time there, I produced a mojority of my professional work in my portfolio. <br><br>Due to how collaborative the team was, I was even given creative freedom to tackle projects in my own way which allowed me to introduce the team to Angular 2</p>
-    <br><br>
-    <p>While there I used the following technologies:</p>
-    <br>
-    <ul>
-        <li>HTML/SCSS/JS/TS</li>
-        <li>PHP Laravel</li>
-        <li>WordPress</li>
-        <li>Angular 2</li>
-        <li>Node.js</li>
-    </ul>
-    <br><br>
-    <p>Check out their site:</p>
-    <a class="link" href="http://www.brownpaperbag.co.nz/">brownpaperbag.co.nz/</a>
-    
+    <nav class="top-nav">
+        <div class="left">
+            <h3>Brown Paper Bag</h3>
+            <p>Current Employer</p>
+        </div>
+        <a onclick="canvas('null', 'close')" href="#!" class="close"><i></i><i></i></a>
+    </nav>
+    <img frameborder="0" src="./projects/brownpaperbag/img/1.jpg">
+    <div class="title-module">
+        <a class="link" href="http://www.brownpaperbag.co.nz/">brownpaperbag.co.nz</a>
+    </div>
+    <div class="project-content">
+        <article>
+            <h2>Description:</h2>
+            <br><br>
+            <p>
+                I began my employment with BrownPaperBag in late July 2016 as a junior front end developer. I was responsible for constructing website front-ends from designs provided to me by the design team, building them into their custom content management system.
+                <br><br>
+                Essentially, I was translating the designer's vision into a product that the back-end team could make dynamic.
+                <br><br>
+                The back-end was using PHP + the Laravel framework.
+                <br><br>
+                I applied myself diligently and my skills developed rapidly. Initially I was responsible for just HTML/CSS, however that quickly evolved to incorporating complex JavaScript and eventually leading a team in the development of a progressive web app (PWA) built in Angular2.
+                <br><br>
+                Between the Friday barbeques and the late nights, BrownPaperBag threw me into an intense rollercoaster of learning and laughs. The developers I worked with were incredible people, both professionally and as friends. Having gone through the trenches with them, I feel a great deal of respect for their capacity and an even greater pride for the incredible team work.
+                <br><br>
+                I look forward to many more beers, barbeques and late nights with the squad.
+            </p>
+            <br>
+            <p>Feel free to check them out, make pull requests or submit issues.</p>
+            <p>For the most part, I use my GitHub to put up project starter templates.</p>
+            <br><br>
+            <p>Responsibilities:</p>
+            <br>
+            <ul>
+                <li>HTML/SCSS</li>
+                <li>PHP/Laravel</li>
+                <li>WordPress</li>
+                <li>Angular</li>
+                <li>Banter</li>
+            </ul>
+        </article>
+    </div>
+    <script> $(function() { projectInit() }) </script>
 </section>
