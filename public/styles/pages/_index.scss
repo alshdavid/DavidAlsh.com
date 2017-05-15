@@ -1,0 +1,282 @@
+#page-index {
+    
+    .hero {
+        position: absolute;
+        top:0; left: 0; bottom: 0; right: 0;
+        overflow: hidden;
+
+        &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            left: 0; bottom: 0; right: 0;
+            height: 100px;
+            background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+        }
+
+        .hero-image {
+            position: absolute;
+            top:0; left: 0; bottom: 0; right: 0;
+            opacity: 0.3;
+            @include bg(cover, 'http://www.aucklandbushire.co.nz/wp-content/uploads/2014/10/cityscape.jpg');
+        }
+
+        .video-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+
+            video {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                min-width: 100%;
+                min-height: 100%;
+                width: auto;
+                height: auto;
+                z-index: -100;
+                -webkit-transform: translateX(-50%) translateY(-50%);
+                transform: translateX(-50%) translateY(-50%);
+                background-size: cover;
+                opacity: 0.2
+            }
+        }
+
+        .me {
+            position: absolute;
+            left: 50%; top: 50%; 
+            transform: translate(-50%, -50%);
+            white-space: nowrap;
+             @media(min-width: $tablet){
+                display: block;
+                margin: 0 auto;
+            }
+
+            .photo {
+                height: 170px;
+                width: 170px;
+                display: inline-block;
+                vertical-align: middle;
+                border-radius: 50%;
+                border: 2px white solid;
+                @include bg(cover, '/assets/images/me.jpg');
+
+                @media(max-width: $tablet){
+                    display: block;
+                    margin: 0 auto 20px;
+                }
+            }
+
+            .text {
+                display: inline-block;
+                vertical-align: middle;
+                margin-left: 20px;
+
+                @media(max-width: $tablet){
+                    display: block;
+                    text-align: center;
+                }
+            }
+
+            * {
+                font-weight: 300;
+                letter-spacing: 1px;
+            }
+
+            h1 {
+                font-weight: 400;
+                padding-bottom: 10px;
+            }
+
+            h2 {
+                font-weight: 300;
+
+                span {
+                    @media(max-width: $tablet){
+                        display: block;
+                    }
+                }
+            }
+
+            h3 {
+                padding-top: 20px;
+                font-weight: 300;
+            }
+        }
+    }
+    
+    nav {
+        position: relative;
+        z-index: 99;
+        height: 80px;
+        margin: calc(100vh - 80px) auto 0;
+        line-height: 80px;
+        display: flex;
+        justify-content: space-around;
+        max-width: 940px;
+
+        a {
+            letter-spacing: 1.5px;
+            font-weight: 300;
+            cursor: pointer;
+        }
+    }
+
+    .tabs {
+        nav {
+            margin: 0 auto;
+            max-width: 840px;
+            display: block;
+            font-size: 0;
+
+            @media(max-width: $tablet){
+                height: auto;
+                line-height: 50px;       
+            }
+
+            a {
+                display: inline-block;
+                vertical-align: top;
+                width: calc(100% / 4);
+                text-align: center;
+                font-size: 16px;
+                padding: 0 10px;
+
+                @media(max-width: $tablet){
+                    width: calc(100% / 2);
+                }
+
+                @media(max-width: $iphone5){
+                    font-size: 14px; 
+                }
+
+            }
+
+            a.active {
+                background: rgba(255,255,255,0.2);
+
+            }
+        }
+
+        .tab {
+            position: relative;
+            display: none;
+            min-height: 100vh;
+
+            &.open {
+                display: block;
+                animation: .35s kf_fadein forwards;
+            }
+
+            
+        }
+
+        select {
+            margin: 0px 0 30px;
+        }
+    }
+
+    .contact {
+        min-height: calc(100vh - 160px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+        text-align: center;
+
+        @media(max-width: $tablet){
+            min-height: calc(100vh - 120px);
+        }
+
+        a {
+            font-size: 30px;
+            padding: 20px 0;
+            display: block;
+        }
+
+        .resume {
+            font-size: 15px;
+        }
+    }
+}
+
+@keyframes kf_fadein {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#project-outlet {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+    @media(min-width: $desktop){
+        max-width: 80vw;  
+        margin: 70px auto; 
+    }
+
+    @media(max-width: $desktop){
+        margin: 0 auto;      
+    }
+
+    article {
+        width: calc(100% / 3);
+        position: relative;
+        height: 300px;
+        animation: .35s kf_fadein forwards;
+        cursor: pointer;
+
+        @media(max-width: $desktop){
+            width: calc(100% / 2);
+        }
+
+        @media(max-width: $tablet){
+            width: 100%;
+        }
+
+        span {
+            display: inline-block;
+            vertical-align: top;
+            font-weight: 300;
+            padding: 10px 20px;
+            font-size: 20px;
+            letter-spacing: 1px;
+        }
+
+        .thumb {
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            border: 11px solid black;
+            display: inline-block;
+            vertical-align: top;
+            @include bg(cover);
+            transition: .25s opacity;
+
+            &:hover { opacity: 0.8; }
+            &:active { opacity: 0.5; }
+        }
+    }
+}
+
+.slide-about {
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 22px;
+    margin-top: 25px;
+
+    strong {
+        font-weight: 400;
+    }
+
+    h4 {
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+    }
+}
+

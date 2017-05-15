@@ -1,0 +1,305 @@
+[
+    {
+        "name": "Marshall Installs",
+        "subtitle": "Delivery and Installation Specialists",
+        "thumb": "/assets/projects/marshallinstalls/image.jpg",
+        "feature": {
+            "type": "image",
+            "href": "/assets/projects/marshallinstalls/image.jpg"
+        },
+        "technologies": [
+            "angular",
+            "typescript",
+            "node",
+            "express",
+            "javascript",
+            "mongo",
+            "scss",
+            "html"
+        ],
+        "type": [
+            "website", "app"
+        ],
+        "description": " <p> This is a progressive web app created for Marshall Installs in collaboration with Harvey Norman. </p><br><p> The software is aimed at being an administration system to help internal staff members manage bookings and deliveries. </p> <br> <p> The system also allows customers to track items through an external system attached to the website via a public API. </p> <br><br> <h3> Features: </h3>  <ul> <li>Responsive</li><li>Restful API</li><li>Progressive Web App</li> <li>CSS animations.</li> <li>JavaScript Animations.</li> </ul> <br><br> <h3> Technologies: </h3>  <ul><li>Angular 4+</li><li>Node.js</li><li>Webpack, Babel, ES6 Import</li><li>Express.js</li><li>SCSS</li><li>Typescript</li> </ul>",
+        "colors": {
+            "text": "#fff",
+            "brand": [
+                "#cbed00"
+            ]
+        }
+    },
+    {
+        "name": "Manor Homes",
+        "subtitle" : "Construction Managment Company",
+        "thumb": "/assets/projects/manorbuild.co.nz/image.jpg",
+        "feature" : {
+            "type" : "video",
+            "href" : "/assets/projects/manorbuild.co.nz/video.mp4"
+        },
+        "technologies": [
+            "wordpress",
+            "jquery",
+            "javascript",
+            "php",
+            "scss",
+            "html"
+        ],
+        "type": [
+            "website"
+        ],
+        "description": "<p>The purpose of this site is to provide a listings service for a company that designs and constructs properties. <br><br> The user is able to add listings, providing a description, image gallery, prices and details. The front page is dynamically populated with the listings added in the back end. <br><br> The banner slider is manually chosen, however the items below are taken from the database and link to an item. There is a listings page with a search and filter feature which works asynchronously. <br><br> The example above is limited to just the front page, as the customer is populating the back end. </p> <br><br> <h3>Features</h3>  <ul> <li>Home Page</li> <li>Home Page Slider</li> <li>Property Listings</li> </ul> <br><br> <h3>Technologies</h3> <ul> <li>HTML/SCSS/JS/TS</li> <li>WordPress</li> </ul>",
+        "colors": {
+            "text" : "#fff",
+            "brand" : ["#ee2e2e"]
+        }
+    },
+    {
+        "name": "New Zealand Fulvic",
+        "subtitle": "Health Suppliment Company",
+        "thumb": "/assets/projects/nzfulvic.com/image.jpg",
+        "feature": {
+            "type": "video",
+            "href": "/assets/projects/nzfulvic.com/video.mp4"
+        },
+        "technologies" : [
+            "zen",
+            "jquery",
+            "javascript", 
+            "php",
+            "scss", 
+            "html"
+            ],
+        "type": [
+            "website"
+        ],
+        "description": " <h2>Description:</h2> <br><br> <p> This was the first website I made for BrownPaperBag when I started there. <br><br> It serves as a reminder to how bad I was when I started and a testament to my capacity to persevere, regardless of my skill level. <br><br> The front page features a long scrolling page where the item in focus activates in a unique way, providing an animated experience all the way down the page. <br><br> There were so many unique challenges, like how to make that floating yellow ball move in it’s track, hiding behind items, without sandwiching it between two different images or how to handle performances issues on mobile. <br><br> Ultimately, I got to the end of this project and was a different developer. </p> <br><br> <h3>Features</h3> <ul> <li>Responsive</li> <li>Feature Rich HomePage</li> <li>Scroll Animations</li> <li>CSS Animations</li> <li>JavaScript Animations</li> <li></li> </ul> <br><br> <h3>Technologies</h3> <ul> <li>HTML5</li> <li>SCSS</li> <li>JavaScript</li> <li>JQuery</li> <li>Zend</li> </ul>",
+        "colors": {
+            "text": "#fff",
+            "brand": [
+                "#F5C65C"
+            ]
+        }
+    },
+    {
+        "name": "Belton I.T.",
+        "subtitle": "Auckland Based I.T. Provider",
+        "thumb": "/assets/projects/belton.co.nz/image.jpg",
+        "feature": {
+            "type": "video",
+            "href": "/assets/projects/belton.co.nz/video.mp4"
+        },
+        "type": [
+            "website"
+        ],
+        "technologies": [
+            "larvel",
+            "jquery",
+            "javascript",
+            "php",
+            "scss",
+            "html"
+        ],
+        "description": " <p> Belton IT is a great showcase of my ability to put together websites that incorporate both HTML elements and lots of JavaScript under pressure. I was given 16 hours to complete the design given to me by the designer. <br><br> The design was a responsive, handling mobile, tablet, laptop and desktop. It had many dynamic elements interacting with JavaScript also using systems like flexbox. </p> <br><br> <h3> Features: </h3> <br> <ul> <li>Responsive</li> <li>Homepage slider.</li> <li>Link that fades into a cinema page for the video.</li> <li>Sticky nav-bar.</li> <li>Nav-bar status changes depending on where you are on the screen.</li> <li>A “services” selector.</li> <li>CSS animations.</li> <li>JavaScript Animations.</li> <li></li> </ul> <br><br> <h3> Technologies: </h3> <br> <ul> <li>HTML5</li> <li>SCSS</li> <li>JavaScript</li> <li>JQuery</li> <li>Laravel</li> </ul>",
+        "colors": {
+            "text": "#fff",
+            "brand": [
+                "#c51b3a"
+            ]
+        }
+    },
+    {
+        "name": "OZ Kiwi",
+        "subtitle": "New Zealand Rights Activist Group",
+        "thumb": "/assets/projects/ozkiwi2001.org/image.jpg",
+        "feature": {
+            "type": "video",
+            "href": "/assets/projects/ozkiwi2001.org/video.mp4"
+        },
+        "technologies": [
+            "wordpress",
+            "jquery",
+            "javascript",
+            "php",
+            "scss",
+            "html"
+        ],
+        "type": [
+            "website"
+        ],
+        "description": " <p> This was my first commercial WordPress site. I contacted the group OzKiwi after hearing about their successes in the political sphere. They are working on a cause that I believe in and I offered to help out by making them a website. <br><br> After meeting with them and having a bit of a laugh, they decided to give me a go. <br><br> I am looking at upgrading their site when I have some time. There is actually a repo in my GitHub where I am working on a custom site manager made using Node.js, MongoDB, Happi.js and Angular2. </p> <br><br> <h3>Features</h3> <br> <ul> <li>Home Page</li> <li>New Articles</li> <li>Blog Articles</li> <li>Home Page Slider</li> </ul> <br><br> <h3>Technologies</h3> <br> <ul> <li>HTML/SCSS/JS/TS</li> <li>WordPress</li> </ul>",
+        "colors": {
+            "text": "#fff",
+            "brand": [
+                "#FFBE02"
+            ]
+        }
+    },
+    {
+        "name": "Textile Recycle Center",
+        "subtitle": "Collection and Delivery Managment App",
+        "thumb": "/assets/projects/trc/image.png",
+        "feature": {
+            "type": "video",
+            "href": "/assets/projects/trc/video.mp4"
+        },
+        "technologies": [
+            "angular",
+            "phonegap",
+            "typescript",
+            "scss",
+            "html"
+        ],
+        "type": [
+            "app"
+        ],
+        "description": " After some time, BrownPaperBag felt that I demonstrated a level of aptitude which made it appropriate to give me creative freedom over a project. <br><br> To summerise, the purpose of the application was to provide a platform where by the drivers of the Textile Recycling Centre would be able to manage their field duties digitally - including chat and vehicle stop managment. <br><br> First I received the design briefing, after which I liaised with the team members and began consultation on the technical architecture of the project. The project was entirely API based, using both RESTful and Websocket technologies. <br><br> I began by creating the application’s documentation wiki on BrownPaperBag’s private project wiki. Mapped out the API’s endpoints and created the interface for the websocket chat. At the time, I had a basic understanding of Angular 2. I had spent more time with Angular 1 in the past so it was easier for me to wrap my head around the concepts in Angular 2. I pushed forward using it as the front-end framework for the application. <br><br> As the project grew in size I kept detailed documentation on everything from the folder structure to the application’s build process. <br><br> The application was built natively using PhoneGap build, leveraging “OneSignal’s” push notification API for the native application and service worker. <br><br> At the end of the project, the client was blown away with it’s performance and the team congratulated me on it’s success. </p> <br><br> <h3>Features</h3> <br> <ul> <li>Chat (Text and Photos)</li> <li>Photos</li> <li>GPS</li> <li>Authorisation</li> <li>Custom Design</li> </ul> <br><br> <h3>Technologies</h3> <br> <ul> <li>Angular 2</li> <li>PhoneGap Build</li> <li>Cordova</li> <li>Socket.io</li> <li>Node.js</li> <li>PHP Larvel</li> </ul> ",
+        "colors": {
+            "text": "#fff",
+            "brand": [
+                "#84bc46"
+            ]
+        }
+    },
+    {
+        "name": "BDG Architects",
+        "subtitle": "Auckland Based Architecture Company",
+        "thumb": "/assets/projects/bdg/image.jpg",
+        "feature": {
+            "type": "video",
+            "href": "/assets/projects/bdg/video.mp4"
+        },
+        "type": [
+            "website"
+        ],
+        "technologies": [
+            "larvel",
+            "jquery",
+            "javascript",
+            "php",
+            "scss",
+            "html"
+        ],
+        "description": " <p> BDG Architects is a company that specialises in providing architectural designs commercially. <br><br> They were looking for a website that allowed them to advertise their portfolio in a way that was unique and animated. <br><br> The challenge in this site was the unique design language, animations, layout of the homepage and masonry grid gallery. <br><br> It’s currently not complete, but still an enjoyable experience. </p> <br><br> <h3>Features:</h3> <br> <ul> <li>Responsive</li> <li>Homepage slider</li> <li>Masonry Gallery</li> <li>CSS Animations</li> <li>JavaScript Animations.</li> <li></li> </ul> <br><br> <h3>Technologies:</h3> <br> <ul> <li>HTML5</li> <li>SCSS</li> <li>JavaScript</li> <li>JQuery</li> <li>Laravel</li> </ul>",
+        "colors": {
+            "text": "#fff",
+            "brand": [
+                "#333"
+            ]
+        }
+    },
+    {
+        "name": "Biox New Zealand",
+        "subtitle": "Industrial Product Provider",
+        "thumb": "/assets/projects/biox.co.nz/image.jpg",
+        "feature": {
+            "type": "video",
+            "href": "/assets/projects/biox.co.nz/video.mp4"
+        },
+        "type": [
+            "website"
+        ],
+        "technologies": [
+            "larvel",
+            "jquery",
+            "javascript",
+            "php",
+            "scss",
+            "html"
+        ],
+        "description": " <p> Biox is a company that provides solutions for companies in heavy industry. <br><br> They requested a website that provided an advertisement platform for their products, allowing them to publish videos and a product catalog </p> <br><br> <h3>Features</h3> <ul> <li>Responsive</li> <li>Homepage slider</li> <li>Masonry Gallery</li> <li>CSS Animations</li> <li>JavaScript Animations.</li> <li></li> </ul> <br><br> <h3>Technologies</h3> <ul> <li>HTML5</li> <li>SCSS</li> <li>JavaScript</li> <li>JQuery</li> <li>Laravel</li> </ul>",
+        "colors": {
+            "text": "#fff",
+            "brand": [
+                "#308ec5"
+            ]
+        }
+    },
+    {
+        "name": "Rides of a Lifetime",
+        "subtitle": "Holiday Recreation Provider",
+        "thumb": "/assets/projects/ridesofalifetime/image.jpg",
+        "feature": {
+            "type": "video",
+            "href": "/assets/projects/ridesofalifetime/video.mp4"
+        },
+        "type": [
+            "website"
+        ],
+        "technologies": [
+            "larvel",
+            "jquery",
+            "javascript",
+            "php",
+            "scss",
+            "html"
+        ],
+        "description": " <p> This site was produced for a company that provides recreational activities for tourists. They needed a website where they could advertise their tours, events and photo gallery. <br><br> The gallery features a masonry grid image style, with a full screen image viewer. </p> <br><br> <h3>Features:</h3> <br> <ul> <li>Responsive</li> <li>Homepage slider</li> <li>Masonry Gallery</li> <li>CSS Animationn</li> <li>JavaScript Animations.</li> </ul> <br><br> <h3>Technologies:</h3> <br> <ul> <li>HTML5</li> <li>SCSS</li> <li>JavaScript</li> <li>JQuery</li> <li>Laravel</li> </ul>",
+        "colors": {
+            "text": "#fff",
+            "brand": [
+                "#094426"
+            ]
+        }
+    },
+    {
+        "name": "BrownPaperBag",
+        "subtitle": "Previous Employer",
+        "thumb": "/assets/projects/brownpaperbag/image.jpg",
+        "feature": {
+            "type": "image",
+            "href": "/assets/projects/brownpaperbag/1.jpg"
+        },
+        "type": [
+            "other"
+        ],
+        "technologies": [
+            "larvel",
+            "angular",
+            "wordpress",
+            "jquery",
+            "javascript",
+            "typescript",
+            "php",
+            "scss",
+            "html"
+        ],
+        "description": " <p> I began my employment with BrownPaperBag in late July 2016 as a junior front end developer. I was responsible for constructing website front-ends from designs provided to me by the design team, building them into their custom content management system. <br><br> Essentially, I was translating the designer's vision into a product that the back-end team could make dynamic. <br><br> The back-end was using PHP + the Laravel framework. <br><br> I applied myself diligently and my skills developed rapidly. Initially I was responsible for just HTML/CSS, however that quickly evolved to incorporating complex JavaScript and eventually leading a team in the development of a progressive web app (PWA) built in Angular2. <br><br> Between the Friday barbeques and the late nights, BrownPaperBag threw me into an intense rollercoaster of learning and laughs. The developers I worked with were incredible people, both professionally and as friends. Having gone through the trenches with them, I feel a great deal of respect for their capacity and an even greater pride for the incredible team work. <br><br> I look forward to many more beers, barbeques and late nights with the squad. </p> <br><br> <h3>Responsibilities:</h3> <br> <ul> <li>HTML/SCSS</li> <li>PHP/Laravel</li> <li>WordPress</li> <li>Angular</li> <li>Banter</li> </ul>",
+        "colors": {
+            "text": "#fff",
+            "brand": [
+                "#B6936B"
+            ]
+        }
+    },
+    {
+        "name": "My GitHub",
+        "subtitle": "The Embarrassing Works of Younger David",
+        "thumb": "/assets/projects/github/image.jpg",
+        "feature": {
+            "type": "image",
+            "href": "/assets/projects/github/image.jpg"
+        },
+        "type": [
+            "other"
+        ],
+        "technologies": [
+            "larvel",
+            "angular",
+            "wordpress",
+            "jquery",
+            "javascript",
+            "typescript",
+            "node",
+            "php",
+            "scss",
+            "html"
+        ],
+        "description": " <p> I started using github to track my personal projects around June. Since then I have put up everything I’d like public there. I hold programming classes, hosting a few example projects that are intended as a tutorial for my students. </p> <br> <p> Otherwise I keep my starter website template there, along with my node.js templates. One as a starter project with TypeScript + node and another being a starter project for Node + Happi.js and Socket.io. </p> <br> <p> I keep frequently update my projects so keep an eye out on the branches, I often make something badly first, revisiting it later in a branch when I learn a better way of handling similar challenges. </p> <br> <p>Feel free to check them out, make pull requests or submit issues.</p> <p>For the most part, I use my GitHub to put up project starter templates.</p> <br><br> <h3>Things like:</h3> <br> <ul> <li>Simple HTML template + task runner</li> <li>Node.js API started project</li> <li>Node.js project that uses TypeScript</li> </ul>",
+        "colors": {
+            "text": "#fff",
+            "brand": [
+                "#999"
+            ]
+        }
+    }
+]
