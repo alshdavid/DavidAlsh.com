@@ -191,7 +191,7 @@ var populateProjects = function populateProjects(filterList) {
 
     selected.forEach(function (project) {
         var el = document.createElement('article');
-        el.innerHTML = '\n            <div style="height: 100%;" onclick="openProject(\'' + project.name + '\')">\n                <div \n                    class="thumb"\n                    style="background-image: url(\' ' + project.thumb + ' \')"\n                ></div>\n            </div>\n        ';
+        el.innerHTML = '\n            <div style="height: 100%;" onclick="openProject(\'' + project.name + '\')">\n                <div \n                    class="thumb"\n                    style="background-image: url(\'' + project.thumb + '\')"\n                ></div>\n            </div>\n        ';
         //el.style.height = (window.innerWidth / 4) + "px"
         projectOutlet.appendChild(el);
     });

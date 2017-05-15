@@ -141,7 +141,7 @@ const populateProjects = (filterList) => {
             <div style="height: 100%;" onclick="openProject('` + project.name + `')">
                 <div 
                     class="thumb"
-                    style="background-image: url(' ` + project.thumb + ` ')"
+                    style="background-image: url('` + project.thumb + `')"
                 ></div>
             </div>
         `
